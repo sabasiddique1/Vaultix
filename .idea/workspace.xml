@@ -5,26 +5,78 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a489ef5-33ca-497f-9963-4fbd87d0dfae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/GeistMonoVF.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/GeistVF.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postcss.config.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/file.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/globe.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/next.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vercel.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/window.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/sign-in/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/sign-up/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/FileUploader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/MobileNavigation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/OTPModal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Search.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constants/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/actions/user.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/appwrite/config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/appwrite/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/arrow-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/close-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/dashboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/delete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/documents.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/dots.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/edit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/file-audio.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/file-csv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/file-doc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/file-document-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/file-document.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/file-docx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/file-image-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/file-image.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/file-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/file-other-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/file-other.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/file-pdf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/file-svg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/file-txt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/file-video-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/file-video.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/grid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/images.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/info.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/loader-brand.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/loader.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/logo-brand.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/logo-full-brand.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/logo-full.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/logout.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/menu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/others.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/remove.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/share.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/thumb-other.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/thumb-video.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/upload.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/video.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/files-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/files.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/photo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/app/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,35 +89,36 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2pCjXaoWygWituxNTI6XTx98gOG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "js.linters.configure.manually.selectedeslint": "true",
-    "last_opened_file_path": "/Users/mac/Desktop/store_it/app",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "/Users/mac/Desktop/store_it/node_modules/eslint",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/mac/Desktop/store_it/node_modules/prettier",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "ts.external.directory.path": "/Users/mac/Desktop/store_it/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mac/Desktop/store_it/app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;/Users/mac/Desktop/store_it/node_modules/eslint&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/mac/Desktop/store_it/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/mac/Desktop/store_it/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -77,6 +130,11 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components" />
+      <recent name="$PROJECT_DIR$/app/(root)" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -87,11 +145,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732276991419</updated>
-      <workItem from="1732276992612" duration="3957000" />
+      <workItem from="1732276992612" duration="6481000" />
+      <workItem from="1732289940569" duration="4033000" />
+      <workItem from="1732542951611" duration="2476000" />
+      <workItem from="1732604973155" duration="1676000" />
+      <workItem from="1732968410096" duration="97000" />
+      <workItem from="1733472913738" duration="585000" />
+      <workItem from="1735980315433" duration="14596000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/(root)/layout.tsx</url>
+          <line>14</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

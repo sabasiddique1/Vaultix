@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Poppins } from 'next/font/google'
+import { Poppins } from "next/font/google";
 
 const poppins = Poppins({
-  subsets: ['latin'],
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-  variable: '--font-poppins'
-})
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  variable: "--font-poppins",
+});
 export const metadata: Metadata = {
-  title: "Vaultix",
-  description: "Vaultix - Secure, seamless cloud file storage",
+  title: "Vaulttix",
+  description: "Vaulttix - Secure, seamless cloud file storage",
 };
 
 export default function RootLayout({
@@ -19,9 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${poppins.variable} font-poppins antialiased`}
-      >
+      <body className={`${poppins.variable} font-poppins antialiased`}>
         {children}
       </body>
     </html>
