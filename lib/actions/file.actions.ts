@@ -42,6 +42,8 @@ export const uploadFile = async ({
             bucketFileId: bucketFile.$id,
         };
 
+        console.log("Uploading file with ownerId:", ownerId); // should be document ID
+
         const newFile = await databases
             .createDocument(
                 appwriteConfig.databaseId,
@@ -104,6 +106,7 @@ export const getFiles = async ({
         if (!currentUser) throw new Error("User not found");
 
         const queries = createQueries(currentUser, types, searchText, sort, limit);
+        console.log(currentUser, queries);
 
         const files = await databases.listDocuments(
             appwriteConfig.databaseId,
